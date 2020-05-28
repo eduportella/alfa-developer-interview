@@ -1,31 +1,27 @@
-# DEVELOPER INTERVIEW
+# AlfaDeveloper
 
-Este teste tem como objetivo não apenas enteder o conhecimento técnico do candidato com linguagem A, B ou C, mas também sua capacidade de:
-* ***ler documentações***
-* ***entender e executar o que está sendo solicitado***
-* ***solucionar problemas***
-* ***organizar o código***
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.4.
 
-Além de é claro ***conhecer a qualidade, legibilidade do código, as suas escolhas técnicas e a lógica utilizada***.
+## Development server
 
-Para enviar seu teste basta forkar esse repositório e criar o seu projeto (ou workspace) usando a sua versão desse repositório, tão logo acabe o teste, submeta um pull request.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
+## Code scaffolding
 
-# VAMOS LÁ?
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-### [OData.org](https://www.odata.org/)
->**OData (Open Data Protocol)** é um padrão OASIS aprovado pela ISO / IEC que define um conjunto de práticas recomendadas para criar e consumir APIs RESTful. 
+## Build
 
->O **OData** ajuda você a se concentrar na lógica de negócios enquanto cria APIs RESTful sem se preocupar com as várias abordagens para definir cabeçalhos de solicitação e resposta, códigos de status, métodos HTTP, convenções de URL, tipos de mídia, formatos de carga útil, opções de consulta etc. 
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
->O **OData** também fornece orientação para rastrear alterações, definir funções / ações para procedimentos reutilizáveis e enviar solicitações assíncronas / em lote.
+## Running unit tests
 
-Usando uma linguagem de programação de sua preferência, consuma os dados [deste serviço padrão OData](https://services.odata.org/TripPinRESTierService/(S(kgoeuh1x0jveff0efe4lodbl))/) executando as operações:
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-Referência [OData Services](https://www.odata.org/odata-services/)
+## Running end-to-end tests
 
-- [ ] Consultar ***nome*** e ***sobrenome*** das ***pessoas*** com ***nome de usuário*** que contenha ***Henry***
-- [ ] ***Incluir*** uma pessoa
-- [ ] ***Excluir*** a pessoa que você incluiu acima
-- [ ] Consultar todos os aeroportos que o ***endereço da localização*** contenha a palavra 'District'
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
