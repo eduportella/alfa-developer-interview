@@ -65,6 +65,7 @@ export class PessoasComponent implements OnInit {
     this.pessoasService.deletePessoa(userName).subscribe((res: any) => {
       this.data = res.value;
       console.log(this.data);
+      alert('removido com sucesso')
     }, err => {
       console.log(err);
     });
@@ -100,6 +101,7 @@ export class PessoasComponent implements OnInit {
         this.data = res.value;
         console.log(this.data);
         this.modalService.dismissAll();
+        alert('incluido com sucesso');
       }, err => {
         console.log(err);
       });
